@@ -3,18 +3,18 @@
     background-color: #1f2937;
 }
 
-.hero .main{
-    font-size: 48px extra-bold;
+.main{
+    font: 48px extra-bold;
     color: #f9faf8;
 }
 
-.hero .secondary,
-.header .link {
+.secondary,
+.link {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.header-logo {
+.header .logo {
     font-size: 24px;
     color: #f9faf8;
 }
