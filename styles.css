@@ -3,7 +3,20 @@
     background-color: #1f2937;
 }
 
-.main{
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
+.main {
+    display: flex;
+}
+
+.main-text{
     font: 48px extra-bold;
     color: #f9faf8;
 }
