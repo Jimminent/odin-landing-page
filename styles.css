@@ -8,7 +8,8 @@
     color: #f9faf8;
 }
 
-.hero .secondary {
+.hero .secondary,
+.header .link {
     font-size: 18px;
     color: #e5e7eb;
 }
