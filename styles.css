@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 .hero,
 .footer {
     background-color: #1f2937;
@@ -8,12 +12,37 @@
     flex-direction: column;
 }
 
+.header,
+.main {
+    margin: 0% 10%;
+}
+
 .header {
+    margin-top: 12px;
     display: flex;
 }
 
 .main {
     display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.main div {
+    flex: 1 1 300px;
+}
+
+.main-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a6a8aa;
+    flex: 1;
+}
+
+.main-right div {
+    text-align: center;
 }
 
 .main-text{
@@ -30,6 +59,7 @@
 .header .logo {
     font-size: 24px;
     color: #f9faf8;
+    margin-right: auto;
 }
 
 button {
