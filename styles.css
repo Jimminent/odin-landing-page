@@ -2,29 +2,29 @@ body {
     margin: 0px;
 }
 
-.hero,
+#hero,
 .footer {
     background-color: #1f2937;
 }
 
-.hero {
+#hero {
     display: flex;
     flex-direction: column;
     gap: 48px;
 }
 
-.header,
-.main {
+#header,
+#main {
     margin: 0% 15%;
 }
 
-.header {
+#header {
     margin-top: 12px;
     display: flex;
     gap: 20px;
 }
 
-.main {
+#main {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -32,27 +32,27 @@ body {
     margin-bottom: 48px;
 }
 
-.main div {
+#main div {
     flex: 1 1 300px;
 }
 
-.main-left div,
+#main-left div,
 button {
     margin: 8px 0px;
 }
 
-.main-right {
+#main-right {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #a6a8aa;
 }
 
-.main-right div {
+#main-right div {
     text-align: center;
 }
 
-.main-text {
+#main-text {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
@@ -64,7 +64,7 @@ button {
     color: #e5e7eb;
 }
 
-.logo {
+#logo {
     font-size: 24px;
     font-weight: 900;
     color: #f9faf8;
@@ -80,19 +80,19 @@ button {
     padding: 8px 24px;
 }
 
-.information-section {
+#information-section {
     display: flex;
     flex-direction: column;
 }
 
-.info-header {
+#info-header {
     text-align: center;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
 }
 
-.card-container {
+#card-container {
     display: flex;
     justify-content: center;
     gap: 60px;
