@@ -46,7 +46,6 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #a6a8aa;
-    flex: 1;
 }
 
 .main-right div {
@@ -87,6 +86,7 @@ button {
 }
 
 .info-header {
+    text-align: center;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
@@ -94,12 +94,25 @@ button {
 
 .card-container {
     display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
 }
 
 .card-pic {
-    height: 100px;
-    width: 100px;
+    height: 200px;
     border: 5px solid #3f50f0;
+    border-radius: 15px;
+}
+
+.card-text {
+    text-align: center;
 }
 
 .quote {
