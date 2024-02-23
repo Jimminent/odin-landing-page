@@ -128,9 +128,14 @@ button {
 }
 
 #quote-section {
-
+    display: flex;
     background-color: #e5e7eb;
-    padding: 96px 0px;
+    padding: 96px 30px 84px;
+    justify-content: center;
+}
+
+#quote-container {
+    flex: 0 1 780px;
 }
 
 #quote-text {
@@ -138,4 +143,13 @@ button {
     font-weight: lighter;
     font-style: italic;
     color: #1f2937;
+}
+
+#citation {
+    padding-top: 10px;
+    padding-right: 30px;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: end;
 }
