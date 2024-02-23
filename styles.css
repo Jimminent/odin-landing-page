@@ -13,13 +13,15 @@ body {
 
 #hero {
     display: flex;
-    flex-direction: column;
-    gap: 48px;
+    justify-content: center;
 }
 
-#header,
-#main {
-    margin: 0% 15%;
+#hero-container {
+    flex: 0 1 1000px;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
 }
 
 #header {
@@ -31,13 +33,13 @@ body {
 #main {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 43px;
     margin-top: 48px;
     margin-bottom: 48px;
 }
 
 #main div {
-    flex: 1 1 300px;
+    flex: 0 1 500px;
 }
 
 #main-left div,
@@ -57,7 +59,7 @@ button {
 }
 
 #main-text {
-    font-size: 56px;
+    font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
 }
