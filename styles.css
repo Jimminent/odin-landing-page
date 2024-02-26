@@ -7,7 +7,7 @@ body {
 }
 
 #hero,
-.footer {
+#footer {
     background-color: #1f2937;
 }
 
@@ -70,7 +70,8 @@ body {
 }
 
 .secondary,
-.link {
+.link,
+#footer div {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -169,7 +170,6 @@ button {
 }
 
 #call-box {
-    /* margin: 0px 30px; */
     box-sizing: border-box;
     background-color: #3882f6;
     padding: 56px 130px;
@@ -191,4 +191,11 @@ button {
 
 #call-subtext {
     font-size: 18px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px 0px;
 }
