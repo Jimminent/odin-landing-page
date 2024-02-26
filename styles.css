@@ -18,11 +18,11 @@ body {
 
 #hero-container,
 #call-box {
-    flex: 0 1 1000px;
+    flex: 0 1 1030px;
 }
 
 #hero-container {
-    padding: 0px 30px;
+    margin: 0px 30px;
     display: flex;
     flex-direction: column;
     gap: 48px;
@@ -83,6 +83,9 @@ body {
 }
 
 button {
+    flex: 0 0 auto;
+    height: fit-content;
+    width: fit-content;
     background-color: #3882f6;
     color: #f9faf8;
     border: 2px solid #f9faf8;
@@ -160,17 +163,21 @@ button {
 }
 
 #call-to-action {
-    padding: 72px 0px;
+    padding: 72px 30px;
     display: flex;
     justify-content: center;
 }
 
 #call-box {
+    /* margin: 0px 30px; */
+    box-sizing: border-box;
     background-color: #3882f6;
-    padding: 36px 74px;
+    padding: 56px 130px;
     border-radius: 15px;
     display: flex;
+    gap: 24px;
     justify-content: space-between;
+    align-items: center;
 }
 
 #call-box div {
